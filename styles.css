@@ -88,7 +88,7 @@ button:hover{
     
     .logo-top{
         width: 400px;
-        height: auto;
+        height: 200px;
         margin-left: 15px;
     }
     .div-principal{
@@ -107,9 +107,8 @@ button:hover{
         width: 400px;
     }
     .swal-wide{
-        width:150px !important;
-        margin-top: -400px !important;
-        margin-left: -200px;
+        width:400px !important;
+        margin-top: -300px !important;
     }
 
 }
