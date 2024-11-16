@@ -87,22 +87,24 @@ button:hover{
     }
     
     .logo-top{
-        width: 200px;
-        height: 100px;
-        margin-left: 8px;
+        width: 400px;
+        height: auto;
+        margin-left: 15px;
     }
     .div-principal{
-        width: 200px;
-        height: 400px;
+        width: 400px;
+        height: 70%;
         margin-left: 8px;
     }
     button{
-        font-size: 28px;
+        font-size: 80px;
         margin-bottom: 10px;
+        width: 400px;
+        margin-left: 10px;
     }
     .input-mim, .input-max{
-        margin-bottom: 20px;
-        width: 200px;
+        margin-bottom: 70px;
+        width: 400px;
     }
     .swal-wide{
         width:150px !important;
