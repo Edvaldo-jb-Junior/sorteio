@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    outline: none;
+    appearance: none;
+}
+body{
+    background-color: rgb(40, 15, 43);
+}
+
+.div-principal{
+    width: 30%;
+    height: 60%;
+    padding: 20px;
+    margin-top: 10px;
+    margin-left: 600px;
+    position: absolute;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.img-div{
+    position: absolute;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    border-radius: 30px;
+    opacity: 0.3;
+}
+
+.logo-top{
+    width: 30%;
+    height: 250px;
+    display: inline-block;
+    margin: 10px 0 0;
+    margin-left: 600px;
+    border-radius: 30px;
+    opacity: 0.9;
+}
+
+.input-mim{
+    width: 40%;
+    height: 10%;
+    margin-top: 70px;
+    border-radius: 20px;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 90px;
+    font-weight: 700;
+
+}
+.input-max{
+    width: 40%;
+    height: 10%;
+    margin-top: 10px;
+    border-radius: 20px;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 80px;
+    font-weight: 700;
+}
+button {
+    width: 80%;
+    height: 20%;
+    margin-top: 10px;
+    border-radius: 20px;
+    font-size: 60px;
+    text-align: center;
+    cursor: pointer;
+    font-weight: 700;
+    background-color: rgb(167, 167, 231);
+}
+
+button:hover{
+    color: white;
+    background-color: rgb(50, 23, 75);
+}
+
+@media (max-width: 1000px){
+    body{
+        width: 50vw;
+        height: 50vh;
+        
+    }
+    
+    .logo-top{
+        width: 200px;
+        height: 100px;
+        margin-left: 8px;
+    }
+    .div-principal{
+        width: 200px;
+        height: 400px;
+        margin-left: 8px;
+    }
+    button{
+        font-size: 28px;
+        margin-bottom: 10px;
+    }
+    .input-mim, .input-max{
+        margin-bottom: 20px;
+        width: 200px;
+    }
+    .swal-wide{
+        width:150px !important;
+        margin-top: -400px !important;
+        margin-left: -200px;
+    }
+
+}
