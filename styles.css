@@ -84,7 +84,7 @@ button:hover{
     .logo-top{
         width: 80vw;
         height: 20vh;
-        margin-left: 100px;
+        margin: 15px 100px;
     }
     .div-principal{
         width: 80vw;
@@ -128,11 +128,11 @@ button:hover{
 }
 .logo-top{
     width: 95vw;
-    margin-left: 10px;
+    margin-left: 10px 100px;
 }
 .div-principal{
     width: 95vw;
-    margin-left: 10px;
+    margin-left: 10px 100px;
 }
 .input-mim, .input-max{
     width: 75vw;
