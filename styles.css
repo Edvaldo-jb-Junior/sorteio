@@ -5,21 +5,28 @@
     font-family: "Roboto", sans-serif;
     outline: none;
     appearance: none;
+    overflow: hidden;
 }
-body{
-    background-color: rgb(40, 15, 43);
+
+h1{
+    color: white;
+    position: absolute;
+    z-index: 1;
+    margin: 30px 0 0 400px;
+    font-size: 80px;
 }
 
 .div-principal{
     width: 40vw;
     height: 70vh;
     padding: 20px;
-    margin: 10px 0 0 400px;
+    margin: -460px 0 0 400px;
     position: absolute;
     border-radius: 30px;
     display: flex;
     align-items: center;
     flex-direction: column;
+    
 }
 .img-div{
     position: absolute;
@@ -30,12 +37,11 @@ body{
     opacity: 0.3;
 }
 
-.logo-top{
-    width: 30vw;
-    height: 20vh;
-    margin: 10px 0 0 450px 0;
-    border-radius: 30px;
-    opacity: 0.9;
+#logo-top{
+    width: 100vw;
+    height: 100vh;
+    z-index: -2;
+    opacity: 0.8;
 }
 
 .input-mim{
@@ -60,13 +66,13 @@ body{
 button {
     width: 80%;
     height: 20%;
-    margin-top: 10px;
     border-radius: 20px;
     font-size: 60px;
     text-align: center;
     cursor: pointer;
     font-weight: 700;
     background-color: rgb(167, 167, 231);
+
 }
 
 button:hover{
@@ -81,7 +87,7 @@ button:hover{
 
 @media (max-width: 1100px){
     
-    .logo-top{
+    #logo-top{
         width: 80vw;
         height: 20vh;
         margin: 15px 100px;
@@ -106,7 +112,7 @@ button:hover{
     }
 }
 @media(max-width: 550px){
-    .logo-top{
+    #logo-top{
         margin-left: 55px;
     }
     .div-principal{
@@ -126,7 +132,7 @@ button:hover{
         width:95vw !important;
         margin-top: -150px !important; 
 }
-.logo-top{
+#logo-top{
     width: 95vw;
     margin-left: 10px 100px;
 }
