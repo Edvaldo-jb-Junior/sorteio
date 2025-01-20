@@ -18,9 +18,9 @@ h1{
 
 .div-principal{
     width: 40vw;
-    height: 70vh;
+    height: 65vh;
     padding: 20px;
-    margin: -460px 0 0 400px;
+    margin: -480px 0 0 400px;
     position: absolute;
     border-radius: 30px;
     display: flex;
@@ -39,7 +39,7 @@ h1{
 
 #logo-top{
     width: 100vw;
-    height: 100vh;
+    height: 101vh;
     z-index: -2;
     opacity: 0.8;
 }
@@ -79,71 +79,159 @@ button:hover{
     color: white;
     background-color: rgb(50, 23, 75);
 }
+
 .swal-wide.button{
-    width:300px !important;
+    width: 300px !important;
+    height: 400px !important;
     margin-top: -250px !important;
     font-size: 15px !important;
+    display: flex !important;
+    text-align: center !important;
 }
 
-@media (max-width: 1100px){
-    
-    #logo-top{
-        width: 80vw;
-        height: 20vh;
-        margin: 15px 100px;
+p{
+    color: white;
+    position: absolute;
+    margin: -50px  0 0 450px;
+}
+
+p a{
+    color: white;
+}
+
+@media (max-width: 1285px){
+    .div-principal{
+        margin-top: -650px;
+    }
+    p{
+        margin: -80px 0 0 430px;
+    }
+}
+
+@media (max-width: 1050px){
+    h1{
+        margin: 30px 0 0 280px; 
     }
     .div-principal{
-        width: 80vw;
+        margin: -500px 0 0 320px;
+    }
+    p{
+        margin-left: 280px;
+    }
+}
+@media (max-width: 920px){
+    h1{
+    margin-left: 200px;
+    }
+    .div-principal{
+        margin: -1160px  0 0 200px;
+        width: 60vw;
+        height: 45vh;
+    }
+    p{
+         margin: -400px 0 0 220px;
+    }
+    .swal-wide.button{
+        margin-top: -550px !important;
+    }
+}
+
+@media (max-width: 830px){
+    h1{
+        margin: 50px 0 0 180px;
+    }
+    .div-principal{
+        margin: -900px 0 0 180px;
+    }
+
+    p{
+        margin: -200px 0 0 180px;
+    }
+}
+
+@media (max-width: 770px){
+    h1{
+        margin-left: 165px;
+    }
+    .div-principal{
+        margin: -750px 0 0 165px;
+    }
+    p{
+        margin: -140px 0 0 165px;
+    }
+}
+
+@media (max-width: 550px){
+    h1{
+        font-size: 60px;
+        margin-left: 90px;
+    }
+    .div-principal{
+        width: 70vw;
         height: 60vh;
-        margin-left: 100px;
+        margin: -580px 0 0 80px;
     }
-    button{
-        font-size: 80px;
-        width: 400px;
-        margin: 50px;
-    }
-    .input-mim, .input-max{
-        margin-bottom: 100px;
-        width: 400px;
-    }
-    .swal-wide{
-        width:60vw !important;
-        margin-top: -300px !important;
+    p{
+        margin:-80px 0 0 40px;
     }
 }
-@media(max-width: 550px){
-    #logo-top{
-        margin-left: 55px;
+
+@media (max-width: 450px){
+    h1{
+        margin-left: 30px;
     }
     .div-principal{
-        height: 80vh;
-        margin-left: 55px;
+        width: 80vw;
+        margin: -760px 0 0 40px;
     }
-    .input-mim, .input-max{
-        margin-bottom: 50px;
-    }
-    .swal-wide{
-        width:80vw !important;
-        margin-top: -150px !important;
+    p{
+        margin-left: 10px;
+        font-size: 20px;
     }
 }
-@media(max-width: 440px){
-    .swal-wide{
-        width:95vw !important;
-        margin-top: -150px !important; 
+
+@media (max-width: 420px){
+    .div-principal{
+        margin-top: -720px;
+    }
+    p{
+        margin-left: 30px;
+    }
 }
-#logo-top{
-    width: 95vw;
-    margin-left: 10px 100px;
+
+@media (max-width: 395px){
+    h1{
+        margin-left: 10px;
+    }
+    .div-principal{
+        margin-top: -680px;
+    }
 }
-.div-principal{
-    width: 95vw;
-    margin-left: 10px 100px;
+
+@media (max-width: 380px){
+    .div-principal{
+        margin-top: -540px;
+    }
 }
-.input-mim, .input-max{
-    width: 75vw;
+
+@media (max-width: 365px){
+    h1{
+        font-size: 45px;
+        margin-left: 40px;
+    }
+    .div-principal{
+        margin-top: -610px;
+    }
 }
-button{
-    width: 75vw
+
+@media (max-width: 350px){
+    .div-principal{
+        width: 90vw;
+        margin: -700px 0 0 15px;
+    }
 }
-}
+
+    
+  
+    
+
